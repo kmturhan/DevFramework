@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Core", "DevFramework.Core\DevFramework.Core.csproj", "{CE5C91A7-4D20-4AEA-8693-34955B046ADC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Northwind.Entites", "DevFramework.Northwind.Entites\DevFramework.Northwind.Entites.csproj", "{DC85CFD6-5B66-47D5-B910-80984B920C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Northwind.Entities", "DevFramework.Northwind.Entites\DevFramework.Northwind.Entities.csproj", "{DC85CFD6-5B66-47D5-B910-80984B920C5D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFramework.Northwind.DataAccess", "DevFramework.Northwind.DataAccess\DevFramework.Northwind.DataAccess.csproj", "{034FA63B-6153-4825-9DD1-A061544AD365}"
 EndProject
@@ -14,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.MvcWebUI", "DevFramework.Northwind.MvcWebUI\DevFramework.Northwind.MvcWebUI.csproj", "{BB20E120-6D0E-4197-AD3C-4A412FBFCBFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.MvcWebUI.Tests", "DevFramework.Northwind.MvcWebUI.Tests\DevFramework.Northwind.MvcWebUI.Tests.csproj", "{A6153CB1-AC99-4775-8B45-13E350BB00CD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.DataAccess.Tests", "DevFramework.DataAccess.Tests\DevFramework.DataAccess.Tests.csproj", "{FE3521CB-0C5C-44CB-9020-D472E4A2D77F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.Business.Tests", "DevFramework.Northwind.Business.Tests\DevFramework.Northwind.Business.Tests.csproj", "{FDCD863A-CAAE-49B4-AC81-2D56B3FE2F09}"
 EndProject
@@ -39,8 +37,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DevFramework.Northwind.WcfS
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "60275"
+		SlnRelativePath = "DevFramework.Northwind.WcfService\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.DataAccess.Tests", "DevFramework.DataAccess.Tests\DevFramework.DataAccess.Tests.csproj", "{E068CF52-6C8C-4F31-9AC9-958A58EADD78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,10 +73,6 @@ Global
 		{A6153CB1-AC99-4775-8B45-13E350BB00CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6153CB1-AC99-4775-8B45-13E350BB00CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6153CB1-AC99-4775-8B45-13E350BB00CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE3521CB-0C5C-44CB-9020-D472E4A2D77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE3521CB-0C5C-44CB-9020-D472E4A2D77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE3521CB-0C5C-44CB-9020-D472E4A2D77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE3521CB-0C5C-44CB-9020-D472E4A2D77F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDCD863A-CAAE-49B4-AC81-2D56B3FE2F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDCD863A-CAAE-49B4-AC81-2D56B3FE2F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDCD863A-CAAE-49B4-AC81-2D56B3FE2F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -88,6 +85,10 @@ Global
 		{C9B9EE79-5BB6-42B3-B4A0-3F99916DDC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B9EE79-5BB6-42B3-B4A0-3F99916DDC94}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C9B9EE79-5BB6-42B3-B4A0-3F99916DDC94}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E068CF52-6C8C-4F31-9AC9-958A58EADD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E068CF52-6C8C-4F31-9AC9-958A58EADD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E068CF52-6C8C-4F31-9AC9-958A58EADD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E068CF52-6C8C-4F31-9AC9-958A58EADD78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
